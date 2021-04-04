@@ -11,6 +11,6 @@ class CppUtils < Formula
   # depends_on "cmake" => :build
 
   def install
-    include.install "utils.h"
+    include.install "range.h"
   end
 end
