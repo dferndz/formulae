@@ -5,7 +5,7 @@ class CppUtils < Formula
   desc ""
   homepage "https://github.com/dferndz/cpp-utils"
   url "https://github.com/dferndz/cpp-utils/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "05e26e87ed5892d3aa232307547a090463efd7d65e69d6c53a49f5bdacc29103"
+  sha256 "7cb8d3442d12918e19513974ecb05783457d9f115804634ca7f422204cbf738a"
   license "MIT"
 
   # depends_on "cmake" => :build
