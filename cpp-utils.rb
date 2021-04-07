@@ -4,13 +4,13 @@
 class CppUtils < Formula
   desc ""
   homepage "https://github.com/dferndz/cpp-utils"
-  url "https://github.com/dferndz/cpp-utils/archive/refs/tags/v1.0.1.tar.gz"
+  url "https://github.com/dferndz/cpp-utils/archive/refs/tags/v1.0.2.tar.gz"
   sha256 "7cb8d3442d12918e19513974ecb05783457d9f115804634ca7f422204cbf738a"
   license "MIT"
 
   # depends_on "cmake" => :build
 
   def install
-    include.install "range.h"
+    include.install "include/utils"
   end
 end
